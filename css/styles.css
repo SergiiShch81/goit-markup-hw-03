@@ -424,6 +424,8 @@ ul {
   cursor: pointer;
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
+  border: 1px solid transparent;
 }
 
 .list-portfolio {
