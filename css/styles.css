@@ -91,7 +91,6 @@ ul {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .header-container {
@@ -100,6 +99,7 @@ ul {
   justify-content: center;
   padding-left: 15px;
   padding-right: 15px;
+  align-items: center;
 }
 
 .header-menu {
@@ -107,6 +107,11 @@ ul {
 }
 .header {
   font-style: normal;
+}
+
+.header-nav-item {
+  display: block;
+  padding: 24px 0;
 }
 
 .link-logo {
