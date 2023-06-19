@@ -120,7 +120,6 @@ ul {
   list-style-type: none; /* Убирает буллиты */
   list-style: none;
   text-decoration: none;
-
   display: flex;
   align-items: center;
   margin-right: 76px;
@@ -360,16 +359,20 @@ ul {
 
 /*------------------------Portfolio  list styles*/
 
+.container-btn {
+  padding: 96px 0 120px 0;
+}
+
 .portfolio-btn-list {
   list-style-type: none; /* Убирает буллиты */
 }
 .list-btn {
   display: flex;
-  margin-top: 96px;
-  margin-bottom: 72px;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 72px;
 }
+
 .portfolio-item {
   display: flex;
 }
@@ -398,8 +401,7 @@ ul {
   color: #ffffff;
   background-color: #404bbf;
 }
-.container-portfolio {
-}
+
 .list-portfolio {
   flex-wrap: wrap;
   width: calc((100% - 24 * 2) / 3);
