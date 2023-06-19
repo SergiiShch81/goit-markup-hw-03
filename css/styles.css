@@ -185,9 +185,9 @@ ul {
 
 /*------------------------------hero styles*/
 
-.hero-container {
-  background-color: #2e2f42;
+.hero {
   padding: 188px 0;
+  background-color: #2e2f42;
 }
 
 .hero-headline {
