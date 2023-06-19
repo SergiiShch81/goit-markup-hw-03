@@ -341,12 +341,15 @@ ul {
 }
 
 /*-------------------------------footer styles*/
-
+.footer {
+  padding: 100px 0;
+  background-color: #2e2f42;
+}
 .container-footer {
   background-color: #2e2f42;
   width: 100%;
   max-width: 1440px;
-  padding: 100px 0;
+
   padding-left: 156px;
 }
 
