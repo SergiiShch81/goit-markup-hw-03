@@ -391,7 +391,6 @@ ul {
   list-style-type: none; /* Убирает буллиты */
 }
 .list-btn {
-  display: flex;
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
@@ -429,9 +428,11 @@ ul {
 }
 
 .list-portfolio {
+  display: flex;
   flex-wrap: wrap;
   width: calc((100% - 24 * 2) / 3);
-  gap: 48px 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   justify-content: center;
 }
 .portfolio-item-desc {
@@ -442,7 +443,7 @@ ul {
 }
 
 .portfolio-piclist-item {
-  display: flex;
+  width: calc((100% - 24 * 2) / 3);
 }
 
 .title-portfolio {
